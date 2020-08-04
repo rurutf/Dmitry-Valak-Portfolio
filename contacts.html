@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,
+    initial-scale=1">
+    <title>Contacts</title>
+    <meta name="description" content="Hi! My name is
+    Dmitry Valak and I`m Web Developer">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/png" href="img/favicon.png">
+
+</head>
+<body>
+<div class="page">
+    <!--HEADER-->
+    <header class="header">
+        <div class="container">
+            <div class="header-inner">
+                <div class="header-brand">
+                    WEBDEVELOPER
+                </div>
+                <div class="header-logo">
+                    <img src="img/code.svg" alt="">
+                </div>
+                <nav class="header-nav">
+                    <a class="header-nav-link" href="index.html">Home</a>
+                    <a class="header-nav-link" href="about.html">About me</a>
+                    <a class="header-nav-link active" href="contacts.html">Contacts</a>
+                </nav>
+            </div>
+        </div><!--/.container-->
+    </header><!--/HEADER-->
+
+    <!--Main-->
+    <div class="container">
+        <main class="content">
+            <h1 class="title">Write me a <span>message</span></h1>
+            <div class="text">
+                <p>Corporis esse incidunt obcaecati, omnis sequi similique veniam!</p>
+            </div>
+
+            <form class="form" action="/" method="post">
+                <div class="form-group">
+                    <input class="input" placeholder="Name" type="text" name="name">
+                </div>
+                <div class="form-group">
+                    <input class="input" placeholder="Email" type="email" name="email">
+                </div>
+                <div class="form-group">
+                    <input class="input" placeholder="Phone" type="tel" name="tel">
+                </div>
+                <div class="form-group">
+                    <textarea class="textarea" placeholder="Message" name="text"></textarea>
+                </div>
+                <div class="form-group">
+                    <button class="btn btn-full" type="submit">Send message</button>
+                </div>
+            </form>
+        </main>
+    </div><!--/.container-->
+
+
+
+    <!--Footer-->
+    <footer class="footer">
+        <div class="container">
+            <div class="contacts">
+                <a class="contacts-link" href="mailto:info@dmitry@gmail.com">
+                    <img class="contacts-icon" src="img/mail.svg" alt="">
+                    info@dmitry@gmail.com
+                </a>
+                <a class="contacts-link" href="tel:+37125521551">
+                    <img class="contacts-icon" src="img/tel.svg" alt="">
+                    +371 255-21-551
+                </a>
+            </div>
+        </div>
+    </footer>
+
+
+    <img class="photo" src="img/me.png." height="80%" alt="">
+
+</div><!--.page-->
+
+</body>
+</html>
