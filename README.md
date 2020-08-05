@@ -1,1 +1,1 @@
-dmitryvalak.github.io
+https://rurutf.github.io/dmitryvalak/
